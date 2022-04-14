@@ -10,10 +10,8 @@ public class Ordenadas {
 	     
 	    Scanner sc = new Scanner(System.in);
 	    String[] vetor = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
-	    
-	    
-	    
-        System.out.println("Escolha a alternativa: "+ "\n");
+
+	    System.out.println("Escolha a alternativa: "+ "\n");
 	    
 	    System.out.println("(1)-" + "A" +"  (8)-" + "H"+"   (15)-"+ "O"+"  (22)-"+ "V"); 
 	    System.out.println("(2)-" + "B" +"  (9)-" + "I"+"   (16)-"+ "P"+"  (23)-"+ "W");
@@ -38,13 +36,9 @@ public class Ordenadas {
 	    
 	    	
 	    if (letra1 < letra2) {
-	    	System.out.println("\n"+"A diferenca entre essas letras sao de: " + (diferenca - 1) + " letras");
+	    System.out.println("\n"+"A diferenca entre essas letras sao de: " + (diferenca - 1) + " letras");
 	    }else {
-	    
-		    	System.out.println("\n" +"Estao fora de ordem alfabetica" );
-	    
+	    System.out.println("\n" +"Estao fora de ordem alfabetica" );
 	    }
-		
-	}
-
+      }
 }
